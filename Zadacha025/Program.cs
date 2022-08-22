@@ -1,6 +1,7 @@
 ﻿using static System.Console;
 Clear();
-// Задача 25: Напишите цикл, который проводится на два входа (A и B)
+//Задача 25
+// Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B
 WriteLine("Введите числа через пробел ");
 int[] array = GetArrayFromString(ReadLine());
 WriteLine($"{array[0]} в степени {array[1]} равно {GetPower(array)}");
